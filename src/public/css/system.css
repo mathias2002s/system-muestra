@@ -1,0 +1,83 @@
+body{
+    max-width: 480px;
+    max-width: 720px;
+    background-color: #0000001f;
+    margin: auto;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 200px,
+        'wght' 0,
+        'GRAD' 0,
+        'opsz' 0;
+        font-size: 30px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 5px 5px 20px -3px #bf00ff40, -5px -5px 15px 3px #2f00ff1f;
+}
+
+
+
+.menuBotons {
+    display:flex;
+    flex-direction: row;
+}
+
+.menuBotons::after {
+    background: rgb(255, 66, 66);
+}
+
+.headerButtons {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+.headerButtons:hover,.botonMenu:hover{
+    opacity: 0.5;
+    color: blue;
+}
+
+.logo,.menu {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.botonMenu{
+    background-color: #2f00ff00;
+    border: #2f00ff00;
+}
+
+.lista_de_torneo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 100px;  
+    box-shadow: 5px 5px 10px -3px #0000001f, -5px -5px 15px 3px #0000001f;
+}
+.lista_de_torneo:hover{
+    opacity: 0.4;
+}
